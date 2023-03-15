@@ -63,7 +63,7 @@ body form{
 }
 .text{
 	outline: none;
-	padding: 0 35px;
+	padding: 0 25px;
 	margin: 15px;
 }
 .firstname{
@@ -71,7 +71,7 @@ body form{
 	height: 30px;
 }
 .lastname{
-	margin-left: 5px;
+	margin-left: 2px;
 	outline: none;
 	height: 30px;
 }
