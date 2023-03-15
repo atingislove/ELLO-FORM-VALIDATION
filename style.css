@@ -1,0 +1,214 @@
+body{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	background: #f0f2f3;
+
+	border-radius: 5px;	
+}
+.logo{
+	
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: -50px;
+	margin-left: 65px;
+	width: 250px;
+}
+header{
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 2px solid #f0f2f3;
+	margin-top: -20px;
+	box-sizing: border-box;
+
+}
+#header1{
+	font-weight: 600;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.header2{
+	font-size: 18px;
+	margin: 5px; 
+}
+body form{
+	position: absolute;
+	position: relative;
+	padding: 40px 0 40px;
+	margin: 10px 0;
+	border: 1px solid #f0f2f3;
+	border-radius: 10px;
+	background: #fff;
+	width: 450px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.submit{
+	width: 50%;
+	height: 30px;
+	border: 1px solid;
+	background: green;
+	border-radius: 10px;
+	font-size: 17px;
+	color: white;
+	font-weight: 400;
+	cursor: pointer;
+	outline: none;
+	margin-left: 25%;
+	margin-top: 15px;
+}
+.text{
+	outline: none;
+	padding: 0 35px;
+	margin: 15px;
+}
+.firstname{
+	outline: none;
+	height: 30px;
+}
+.lastname{
+	margin-left: 5px;
+	outline: none;
+	height: 30px;
+}
+.email{
+	outline: none;
+	margin-top: 10px;
+	width: 335px;
+	height: 30px;
+}
+#password{
+	height: 30px;
+	margin-top: 10px;
+	width: 335px;
+	outline: none;
+}
+#message{
+	margin-top: 2px;
+	display: none;
+}
+.birthday{
+	padding: 0 35px;
+	margin: 15px;
+}
+#month{
+	height: 30px;
+	width: 100px;
+}
+#day{
+	height: 30px;
+	width: 100px;
+}
+#year{
+	height: 30px;
+	width: 130px;
+}
+.gender{
+	padding: 0 35px;
+	margin: 15px;
+}
+.textg{
+	margin-bottom: 6px;
+}
+#female{
+	border-radius: 2px;
+	border: 1px solid black;
+	height: 30px;
+	font-size: 20px;
+}
+.female{
+	margin-left: 25px;
+}
+#female1{
+	margin-left: 5px;
+}
+#male{
+	border-radius: 2px;
+	border: 1px solid black;
+	height: 30px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.male{
+	margin-left: 25px;
+}
+#male1{
+	margin-left: 5px;
+}
+#custom{
+	border-radius: 2px;
+	border: 1px solid black;
+	height: 30px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.custom{
+	margin-left: 25px;
+}
+#custom1{
+	margin-left: 5px;
+}
+.country{
+	padding: 0 35px;
+	margin: 15px;
+}
+.country1{
+	margin-top: 10px;
+	margin-bottom: 6px;
+}
+#country{
+	height: 30px;
+	width: 340px;
+	text-align: center;
+}
+.popup{
+	width: 400px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(0.1);
+	text-align: center;
+	padding: 0 30px 30px;
+	color: black;
+	visibility: hidden;
+	transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+	width: 100px;
+	margin-top: -50px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.popup h2{
+	font-size: 38px;
+	font-weight: 500;
+	margin: 30px 0 10px;
+}
+.button{
+	width: 100%;
+	margin-top: 50px;
+	padding: 10px 0;
+	background: green;
+	color: white;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+#okay{
+	font-size: 30px;
+}
